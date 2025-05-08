@@ -14,7 +14,7 @@ npm i or npm i --force
    
 
 2. **Configure Environment**  
-   Create `.env.local`:
+   Create `.env.local` for development environment or `.env.prod` for production environment and add your backend url to variable of NEXT_PUBLIC_API_BASE_URL :
    ```env
    NEXT_PUBLIC_API_BASE_URL="http://localhost:8000/api"
    ```
