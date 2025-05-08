@@ -9,7 +9,7 @@
   ```bash
 git clone https://github.com/frzfrsfra3/frontend_devteam.git
 cd frontend_devteam
-npm i or npm i --forcr
+npm i or npm i --force
 ```
    
 ## Table of Contents
