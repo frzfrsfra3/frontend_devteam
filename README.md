@@ -3,6 +3,39 @@
 **Technologies**: Next.js 15, TypeScript, Redux, JWT, Tailwind CSS, Material UI  
 **Features**: Auth, Articles Creating, Day-Based Visibility, Stars Rating, Protected Routes  
 
+## Overview
+Completed frontend implementation for the Article Management Platform using Next.js 15 (App Router) as per the Code Station requirements. The application features user authentication, article management with visibility scheduling, and a rating system.
+
+## Technologies
+- **Framework**: Next.js 15 (App Router)
+- **Language**: TypeScript
+- **State Management**: Redux Toolkit
+- **API Layer**: Service layer architecture
+- **Authentication**: JWT decode & storage
+- **Styling**: Tailwind CSS + Material UI + custom styles
+- **Form Handling**: React Hook Form
+
+## Key Features
+✅ User authentication (register/login)  
+✅ Article creation with day-based visibility  
+✅ Current-day article filtering  
+✅ 5-star rating system  
+✅ Protected routes  
+✅ Responsive UI with loading states  
+
+## Project Structure
+```
+/src
+├── app/           # App router pages
+├── components/    # Reusable components
+├── hooks/         # Custom hooks
+├── lib/           # API services & utilities
+├── redux/         # Redux store
+├── styles/        # CSS modules
+└── types/         # TypeScript types
+```
+
+
 ## 🛠 Local Setup
 
 1. **Clone & Install**  
