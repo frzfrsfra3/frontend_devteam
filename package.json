@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/styled": "^11.14.0",
     "@headlessui/react": "^2.2.2",
     "@heroicons/react": "^2.2.0",
     "@mui/icons-material": "^6.4.3",
@@ -42,6 +43,7 @@
     "xlsx": "^0.18.5"
   },
   "devDependencies": {
+    "@emotion/react": "^11.14.0",
     "@types/lodash.debounce": "^4.0.9",
     "@types/node": "^20",
     "@types/pixi.js": "^5.0.0",
