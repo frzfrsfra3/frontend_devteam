@@ -16,7 +16,7 @@ npm i or npm i --force
 2. **Configure Environment**  
    Create `.env.local`:
    ```env
-   NEXT_PUBLIC_API_URL="http://localhost:8000/api"
+   NEXT_PUBLIC_API_BASE_URL="http://localhost:8000/api"
    ```
 
 3. **Run Development Server**  
