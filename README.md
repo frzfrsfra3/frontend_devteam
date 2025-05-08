@@ -6,6 +6,9 @@
 ## Overview
 Completed frontend implementation for the Article Management Platform using Next.js 15 (App Router) as per the Code Station requirements. The application features user authentication, article management with visibility scheduling, and a rating system.
 
+## Note
+The System has been tested on Nodejs 18 and NextJS 15
+
 ## Technologies
 - **Framework**: Next.js 15 (App Router)
 - **Language**: TypeScript
