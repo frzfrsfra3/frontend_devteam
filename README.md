@@ -33,6 +33,9 @@ Completed frontend implementation for the Article Management Platform using Next
 ├── redux/         # Redux store
 ├── styles/        # CSS modules
 └── types/         # TypeScript types
+├── services/      # some API integrations
+└── public/        # some public images 
+
 ```
 
 
