@@ -41,6 +41,32 @@ The System has been tested on Nodejs 18 and NextJS 15
 
 ```
 
+## Route Size Report
+
+```
+Route (app)                             | Size     | First Load JS
+-------------------------------------- | -------- | --------------
+○ `/`                                   | 1.43 kB  | 131 kB
+○ `/_not-found`                         | 898 B    | 101 kB
+○ `/add-post`                           | 2.35 kB  | 133 kB
+○ `/login`                              | 1.25 kB  | 131 kB
+○ `/my-posts`                           | 3.8 kB   | 175 kB
+○ `/posts`                              | 4.45 kB  | 165 kB
+ƒ `/posts/[id]`                         | 18.6 kB  | 170 kB
+○ `/register`                           | 1.28 kB  | 121 kB
+
+### First Load JS Shared by All
+
+File                                        | Size
+-----------------------------------------  | --------
+`chunks/4bd1b696-147f9ec121febacb.js`      | 52.5 kB
+`chunks/517-310b7ad3453faeb5.js`           | 45.6 kB
+Other shared chunks (total)                | 1.95 kB
+
+> ○  (Static)   prerendered as static content  
+> ƒ  (Dynamic)  server-rendered on demand
+```
+
 
 ## 🛠 Local Setup
 

@@ -9,6 +9,11 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
+    "engines": {
+      "node": "18.x"
+    },
+  
   "dependencies": {
     "@emotion/styled": "^11.14.0",
     "@headlessui/react": "^2.2.2",
